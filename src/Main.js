@@ -7,59 +7,61 @@ import man1 from './icons/man1.png'
 import man2 from './icons/man2.png'
 import man11 from './/icons/man11.jpg'
 import man22 from './/icons/man22.jpg'
+import './Main.css'
 
 function Main() {
     return (
         <>
             {/* First Main Content */}
-            <section>
-                <section>
-                    <h1>Little Lemon</h1>
-                    <h2>Chicago</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus,
+            <section className='sect1'>
+                <section className='sect11'>
+                    <h1 className='text1'>Little Lemon</h1>
+                    <h2 className='text11'>Chicago</h2>
+                    <p className='text12'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus,
                         unde autem commodi assumenda sint temporibus necessitatibus place</p>
-                    <button>Reserve A Table</button>
-                    <aside>
-                        <img src={mainimg1} alt="Food made in Little Lemon" width="150px" />
-                    </aside>
+                    <button className='text13'>Reserve A Table</button>
                 </section>
+                <aside>
+                    <img className='img1' src={mainimg1} alt="Food made in Little Lemon" />
+                </aside>
+
             </section>
             {/* Second Main Content */}
-            <section>
-                <section>
-                    <h1>This Weeks Specials!</h1>
-                    <button>Online Menu</button>
+            <section className='sect2'>
+                <section className='sect21'>
+                    <h1 className='text2'>This Weeks Specials!</h1>
+                    <button className='text21'>Online Menu</button>
                 </section>
-                <section>
-                    <section>
-                        <img src={salad} alt="Little lemon salad" width="150px" />
-                        <h2>Green Salad</h2>
-                        <h2>$12.99</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur
+                <section className='sect22'>
+                    <section className='sect23'>
+                        <img className='img2' src={salad} alt="Little lemon salad" width="150px" />
+                        <section className='sectn'><h2 className='text22'>Green Salad</h2>
+                            <h2 className='text23'>$12.99</h2></section>
+                        <p className='text24'>Lorem ipsum dolor sit amet consectetur
                             adipisicing elit. Accusamus, unde autem
                             commodi assumenda sint temporibus
                             necessitatibus place</p>
-                        <h3>Order a delivery</h3>
+                        <h3 className='text25'>Order a delivery</h3>
                     </section>
-                    <section>
-                        <img src={lemon} alt="Little lemon salad" width="150px" />
-                        <h2>Bruchetta</h2>
-                        <h2>$13.99</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur
+                    <section className='sect23'>
+                        <img className='img2' src={lemon} alt="Little lemon salad" width="150px" />
+                        <section className='sectn'><h2 className='text22'>Bruchetta</h2>
+                            <h2 className='text23'>$13.99</h2></section>
+                        <p className='text24'>Lorem ipsum dolor sit amet consectetur
                             adipisicing elit. Accusamus, unde autem
                             commodi assumenda sint temporibus
                             necessitatibus place</p>
-                        <h3>Order a delivery</h3>
+                        <h3 className='text25'>Order a delivery</h3>
                     </section>
-                    <section>
-                        <img src={intro} alt="Little lemon salad" width="150px" />
-                        <h2>Lemon Juice </h2>
-                        <h2>$10.99</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur
+                    <section className='sect23'>
+                        <img className='img2' src={intro} alt="Little lemon salad" width="150px" />
+                        <section className='sectn'><h2 className='text22'>Lemon Juice </h2>
+                            <h2 className='text23'>$10.99</h2></section>
+                        <p className='text24'>Lorem ipsum dolor sit amet consectetur
                             adipisicing elit. Accusamus, unde autem
                             commodi assumenda sint temporibus
                             necessitatibus place</p>
-                        <h3>Order a delivery</h3>
+                        <h3 className='text25'>Order a delivery</h3>
                     </section>
                 </section>
             </section>

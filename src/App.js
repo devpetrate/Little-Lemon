@@ -7,10 +7,11 @@ import Footer from './Footer';
 function App() {
   return (
     <>
-      <Header />
-      <Nav />
+      <section className="navbar">
+        <Header />
+        <Nav /></section>
       <Main />
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

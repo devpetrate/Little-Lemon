@@ -1,0 +1,15 @@
+a {
+  font-family: "Karla", sans-serif;
+  text-decoration: none;
+}
+li {
+  list-style: none;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+}
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 1rem;
+}
