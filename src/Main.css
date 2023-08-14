@@ -116,3 +116,13 @@
 }
 
 /* Third Main Content Style*/
+.sect3 {
+  display: grid;
+  justify-content: center;
+}
+.sect3n {
+  display: flex;
+}
+.text3 {
+  text-align: center;
+}

@@ -66,41 +66,41 @@ function Main() {
                 </section>
             </section>
             {/* Third Main Content */}
-            <section>
-                <h2>Testimonials</h2>
-                <section>
-                    <section>
-                        <h3>Rating</h3>
-                        <img src={man1} alt="Customer Rating 1" width="150px" />
-                        <h3>James</h3>
-                        <p>A 10/10 meal</p>
+            <section className='sect3'>
+                <h2 className='text3'>Testimonials</h2>
+                <section className='sect3n'>
+                    <section className='sect31'>
+                        <h3 className='text31'>Rating</h3>
+                        <img className='img3' src={man1} alt="Customer Rating 1" width="150px" />
+                        <h3 className='text32'>James</h3>
+                        <p className='text33'>A 10/10 meal</p>
                     </section>
-                    <section>
-                        <h3>Rating</h3>
-                        <img src={man2} alt="Customer Rating 1" width="150px" />
-                        <h3>Hanson</h3>
-                        <p>A 10/10 meal</p>
+                    <section className='sect32'>
+                        <h3 className='text31'>Rating</h3>
+                        <img className='img3' src={man2} alt="Customer Rating 1" width="150px" />
+                        <h3 className='text32'>Hanson</h3>
+                        <p className='text33'>A 10/10 meal</p>
                     </section>
-                    <section>
-                        <h3>Rating</h3>
-                        <img src={man1} alt="Customer Rating 1" width="150px" />
-                        <h3>James</h3>
-                        <p>A 10/10 meal</p>
+                    <section className='sect33'>
+                        <h3 className='text31'>Rating</h3>
+                        <img className='img3' src={man1} alt="Customer Rating 1" width="150px" />
+                        <h3 className='text32'>James</h3>
+                        <p className='text33'>A 10/10 meal</p>
                     </section>
-                    <section>
-                        <h3>Rating</h3>
-                        <img src={man2} alt="Customer Rating 1" width="150px" />
-                        <h3>Hanson</h3>
-                        <p>A 10/10 meal</p>
+                    <section className='sect34'>
+                        <h3 className='text31'>Rating</h3>
+                        <img className='img3' src={man2} alt="Customer Rating 1" width="150px" />
+                        <h3 className='text32'>Hanson</h3>
+                        <p className='text33'>A 10/10 meal</p>
                     </section>
                 </section>
             </section>
             {/* Fourth Main Content */}
-            <section>
-                <section>
-                    <h1>Little Lemon</h1>
-                    <h2>Chicago</h2>
-                    <p>
+            <section className='sect4'>
+                <section className='sect41'>
+                    <h1 className='text4'>Little Lemon</h1>
+                    <h2 className='text41'>Chicago</h2>
+                    <p className='text42'>
                         Lorem ipsum dolor sit amet consectetur
                         adipisicing elit. Accusamus, unde autem
                         commodi assumenda sint temporibus
@@ -108,9 +108,9 @@ function Main() {
                         sapiente porro? Ea iste repellendus, assumenda
                         blanditiis harum exercitationem autem porro.</p>
                 </section>
-                <aside>
-                    <img src={man11} alt="Customer Rating 1" width="150px" />
-                    <img src={man22} alt="Customer Rating 1" width="150px" />
+                <aside className='sect42'>
+                    <img className='img41' src={man11} alt="Customer Rating 1" width="150px" />
+                    <img className='img42' src={man22} alt="Customer Rating 1" width="150px" />
                 </aside>
             </section>
         </>
