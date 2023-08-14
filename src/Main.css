@@ -119,6 +119,9 @@
 .sect3 {
   display: grid;
   justify-content: center;
+  background-color: #495e57;
+  height: 600px;
+  padding-top: 3rem;
 }
 .sect3n {
   display: flex;
