@@ -71,7 +71,8 @@ function Main() {
                 <section className='sect3n'>
                     <section className='sect31'>
                         <h3 className='text31'>Rating</h3>
-                        <section className='sect3nn'><img className='img3' src={man1} alt="Customer Rating 1" />
+                        <section className='sect3nn'>
+                            <img className='img3' src={man1} alt="Customer Rating 1" />
                             <h3 className='text32'>James</h3></section>
                         <p className='text33'>A 10/10 meal</p>
                     </section>
@@ -104,7 +105,7 @@ function Main() {
                         Lorem ipsum dolor sit amet consectetur
                         adipisicing elit. Accusamus, unde autem
                         commodi assumenda sint temporibus
-                        necessitatibus placeat debitis facilis
+                        necessita tibus placeat debitis facilis
                         sapiente porro? Ea iste repellendus, assumenda
                         blanditiis harum exercitationem autem porro.</p>
                 </section>
