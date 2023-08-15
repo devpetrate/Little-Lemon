@@ -5,8 +5,8 @@ import lemon from './icons/lemon dessert.jpg'
 import intro from './icons/intro2.jpg'
 import man1 from './icons/man1.png'
 import man2 from './icons/man2.png'
-import man11 from './/icons/man11.jpg'
-import man22 from './/icons/man22.jpg'
+import man11 from './/icons/man111.jpg'
+import man22 from './/icons/man222.jpg'
 import './Main.css'
 
 function Main() {
@@ -71,32 +71,32 @@ function Main() {
                 <section className='sect3n'>
                     <section className='sect31'>
                         <h3 className='text31'>Rating</h3>
-                        <img className='img3' src={man1} alt="Customer Rating 1" width="150px" />
-                        <h3 className='text32'>James</h3>
+                        <section className='sect3nn'><img className='img3' src={man1} alt="Customer Rating 1" />
+                            <h3 className='text32'>James</h3></section>
                         <p className='text33'>A 10/10 meal</p>
                     </section>
-                    <section className='sect32'>
+                    <section className='sect31'>
                         <h3 className='text31'>Rating</h3>
-                        <img className='img3' src={man2} alt="Customer Rating 1" width="150px" />
-                        <h3 className='text32'>Hanson</h3>
+                        <section className='sect3nn'><img className='img3' src={man2} alt="Customer Rating 1" />
+                            <h3 className='text32'>Hanson</h3></section>
                         <p className='text33'>A 10/10 meal</p>
                     </section>
-                    <section className='sect33'>
+                    <section className='sect31'>
                         <h3 className='text31'>Rating</h3>
-                        <img className='img3' src={man1} alt="Customer Rating 1" width="150px" />
-                        <h3 className='text32'>James</h3>
+                        <section className='sect3nn'><img className='img3' src={man1} alt="Customer Rating 1" />
+                            <h3 className='text32'>James</h3></section>
                         <p className='text33'>A 10/10 meal</p>
-                    </section>
-                    <section className='sect34'>
+                    </section >
+                    <section className='sect31'>
                         <h3 className='text31'>Rating</h3>
-                        <img className='img3' src={man2} alt="Customer Rating 1" width="150px" />
-                        <h3 className='text32'>Hanson</h3>
+                        <section className='sect3nn'><img className='img3' src={man2} alt="Customer Rating 1" />
+                            <h3 className='text32'>Hanson</h3></section>
                         <p className='text33'>A 10/10 meal</p>
-                    </section>
-                </section>
-            </section>
+                    </section >
+                </section >
+            </section >
             {/* Fourth Main Content */}
-            <section className='sect4'>
+            < section className='sect4' >
                 <section className='sect41'>
                     <h1 className='text4'>Little Lemon</h1>
                     <h2 className='text41'>Chicago</h2>
@@ -109,10 +109,10 @@ function Main() {
                         blanditiis harum exercitationem autem porro.</p>
                 </section>
                 <aside className='sect42'>
-                    <img className='img41' src={man11} alt="Customer Rating 1" width="150px" />
-                    <img className='img42' src={man22} alt="Customer Rating 1" width="150px" />
+                    <img className='img41' src={man11} alt="Customer Rating 1" />
+                    <section class="imgn"> <img className='img42' src={man22} alt="Customer Rating 1" /></section>
                 </aside>
-            </section>
+            </section >
         </>
     )
 };

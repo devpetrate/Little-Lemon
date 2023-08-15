@@ -128,4 +128,99 @@
 }
 .text3 {
   text-align: center;
+  color: #edefee;
+  font-weight: bold;
+  font-size: 36px;
+}
+.sect31 {
+  border-radius: 16px;
+  background-color: #ffff;
+  height: 220px;
+  width: 190px;
+  margin: 0 1rem 0 1rem;
+}
+.text31 {
+  font-size: 20px;
+  margin-top: 2rem;
+  margin-left: 1rem;
+}
+.sect3nn {
+  display: flex;
+  flex-wrap: wrap;
+}
+.img3 {
+  width: 75px;
+  height: 65px;
+  margin-left: 1rem;
+}
+.text32 {
+  font-size: 16px;
+  font-family: "karla", sans-serif;
+  margin-left: 1rem;
+}
+.text33 {
+  font-size: 12px;
+  font-family: "karla", sans-serif;
+  margin-bottom: 2rem;
+  margin-left: 1rem;
+}
+
+/* fourth Main Content Style*/
+.sect4 {
+  display: flex;
+  justify-content: center;
+  background-color: #ffff;
+  height: 530px;
+  padding-top: 2rem;
+  width: 100%;
+}
+.sect41 {
+  margin-right: 3rem;
+}
+.sect42 {
+  margin-right: 6rem;
+}
+.text4 {
+  color: #495e57;
+  font-size: 64px;
+  margin: 0;
+  margin-top: 6rem;
+}
+.text41 {
+  color: #f4ce14;
+  font-size: 32px;
+  margin: 0;
+}
+.text42 {
+  color: #495e57;
+  font-size: 15px;
+  margin-top: 3rem;
+  font-family: "karla", sans-serif;
+  font-stretch: semi-expanded;
+}
+.text42 {
+  width: 25vw;
+}
+
+.sect42 {
+  position: relative;
+  display: inline-block;
+}
+.img41 {
+  display: block;
+  width: 261px;
+  height: 327px;
+  margin-left: 10rem;
+  border-radius: 16px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.img42 {
+  display: block;
+  width: 261px;
+  height: 327px;
+
+  margin-top: 10rem;
+  border-radius: 16px;
 }
