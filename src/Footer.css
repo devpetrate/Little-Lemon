@@ -1,0 +1,30 @@
+.sectf {
+  display: flex;
+  justify-content: center;
+  background-color: #495e57;
+  height: 439px;
+}
+.imgf {
+  width: 164px;
+  height: 268px;
+  margin-top: 6rem;
+  margin-right: 3rem;
+  border-radius: 16px;
+}
+.sectf1 {
+  display: block;
+  margin-right: 6rem;
+  margin-top: 5rem;
+}
+.h3f {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+}
+.pf {
+  font-size: 16px;
+  font-family: "karla", sans-serif;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
