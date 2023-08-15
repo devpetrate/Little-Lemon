@@ -28,3 +28,31 @@
   margin: 0;
   padding: 0;
 }
+
+@media (max-width: 768px) {
+  .sectf {
+    align-items: start;
+    padding: 2rem;
+    height: auto;
+  }
+
+  .imgf {
+    width: 100px;
+    height: 164px;
+    margin: 1.5rem auto 1.5rem auto;
+  }
+
+  .sectf1 {
+    text-align: center;
+    margin: 1rem 0.5rem;
+  }
+
+  .h3f {
+    font-size: 20px;
+  }
+
+  .pf {
+    font-size: 14px;
+    margin-top: 0.5rem;
+  }
+}
