@@ -16,12 +16,12 @@
   margin-top: 1rem;
 }
 
-input,
-select {
+.inp1 {
   background-color: #d9d9d9;
   border: none;
   border-radius: 16px;
   padding: 1rem;
+  -webkit-padding: 1rem;
   font-family: "karla", sans-serif;
 }
 
@@ -111,5 +111,8 @@ select {
   }
   .wrapper {
     width: 100%;
+  }
+  .but1 {
+    font-size: 20px;
   }
 }
