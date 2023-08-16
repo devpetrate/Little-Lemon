@@ -19,12 +19,16 @@
   background-color: #d9d9d9;
   border: none;
   font-family: "karla", sans-serif;
+  padding: 1rem;
 }
+.inp1:focus {
+  outline: none;
+}
+
 .inp111 {
   background-color: #d9d9d9;
   border: none;
   border-radius: 16px;
-  padding: 1rem;
 }
 
 .lab1 {
