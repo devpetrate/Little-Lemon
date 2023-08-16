@@ -38,7 +38,9 @@ select {
 }
 .lab2 {
   margin: 1rem 0 0.5rem 1rem;
+  -webkit-margin: 1rem 0 0.5rem 1rem;
 }
+
 .but1 {
   width: 13.6875rem;
   height: 3.25rem;
@@ -50,6 +52,8 @@ select {
   font-size: 1.5rem;
   font-weight: bold;
   margin-top: 1.5rem;
+  text-align: center;
+  -webkit-text-align: center;
 }
 .but1:disabled {
   background-color: rgb(219, 105, 105);
@@ -80,6 +84,8 @@ select {
   padding: 0 1rem 1rem 1rem;
   margin: 0;
   width: 23vw;
+  position: relative;
+  overflow: scroll;
 }
 .bokimg {
   position: relative;
