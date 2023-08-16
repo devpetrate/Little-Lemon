@@ -2,7 +2,7 @@ import mainimg1 from './icons/mainimg1.jpg'
 import React from 'react'
 import salad from './icons/greek salad.jpg'
 import lemon from './icons/lemon dessert.jpg'
-import intro from './icons/intro2.jpg'
+// import intro from './icons/intro2.jpg'
 import man1 from './icons/man1.png'
 import man2 from './icons/man2.png'
 import man11 from './/icons/man111.jpg'
@@ -20,7 +20,7 @@ function Main() {
                     <h2 className='text11'>Chicago</h2>
                     <p className='text12'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus,
                         unde autem commodi assumenda sint temporibus necessitatibus place</p>
-                    <Link to="bookingpage"><button className='text13'> Reserve A Table </button></Link>
+                    <Link to="bookingpage" className='text13'><button className='text13'> Reserve A Table </button></Link>
                 </section>
                 <aside>
                     <img className='img1' src={mainimg1} alt="Food made in Little Lemon" />
@@ -54,7 +54,7 @@ function Main() {
                             necessitatibus place</p>
                         <h3 className='text25'>Order a delivery</h3>
                     </section>
-                    <section className='sect23'>
+                    {/* <section className='sect23'>
                         <img className='img2' src={intro} alt="Little lemon salad" width="150px" />
                         <section className='sectn'><h2 className='text22'>Lemon Juice </h2>
                             <h2 className='text23'>$10.99</h2></section>
@@ -63,7 +63,7 @@ function Main() {
                             commodi assumenda sint temporibus
                             necessitatibus place</p>
                         <h3 className='text25'>Order a delivery</h3>
-                    </section>
+                    </section> */}
                 </section>
             </section>
             {/* Third Main Content */}
