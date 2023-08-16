@@ -20,7 +20,7 @@ function Main() {
                     <h2 className='text11'>Chicago</h2>
                     <p className='text12'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus,
                         unde autem commodi assumenda sint temporibus necessitatibus place</p>
-                    <Link to="bookingpage" className='text13'><button className='text13'> Reserve A Table </button></Link>
+                    <Link to="bookingpage" ><button className='text13'> Reserve A Table </button></Link>
                 </section>
                 <aside>
                     <img className='img1' src={mainimg1} alt="Food made in Little Lemon" />
