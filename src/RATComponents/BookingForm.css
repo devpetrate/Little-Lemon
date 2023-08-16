@@ -1,7 +1,7 @@
 /* Booking main 2 */
 .container {
   background-color: #ffffff;
-  height: 730px;
+  height: 740px;
 
   display: flex;
   justify-content: center;
@@ -15,14 +15,16 @@
   width: 25rem;
   margin-top: 1rem;
 }
-
 .inp1 {
+  background-color: #d9d9d9;
+  border: none;
+  font-family: "karla", sans-serif;
+}
+.inp111 {
   background-color: #d9d9d9;
   border: none;
   border-radius: 16px;
   padding: 1rem;
-  -webkit-padding: 1rem;
-  font-family: "karla", sans-serif;
 }
 
 .lab1 {
@@ -83,7 +85,7 @@
 .boktext1 {
   padding: 0 1rem 1rem 1rem;
   margin: 0;
-  width: 23vw;
+  position: inherit;
   text-overflow: ellipsis;
 }
 .bokimg {
