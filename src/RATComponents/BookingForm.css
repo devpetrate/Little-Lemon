@@ -1,0 +1,109 @@
+/* Booking main 2 */
+.container {
+  background-color: #ffffff;
+  height: 730px;
+
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  font-family: "karla", sans-serif;
+  font-weight: bold;
+  width: 25rem;
+  margin-top: 1rem;
+}
+
+input,
+select {
+  background-color: #d9d9d9;
+  border: none;
+  border-radius: 16px;
+  padding: 1rem;
+  font-family: "karla", sans-serif;
+}
+
+.lab1 {
+  text-align: center;
+  color: #fff;
+  font-size: 36px;
+  padding: 1rem;
+  border-radius: 16px;
+  background-color: #495e57;
+  margin: 0 3rem 0 3rem;
+  font-weight: bold;
+  font-family: "Markazi Text", serif;
+}
+.lab2 {
+  margin: 1rem 0 0.5rem 1rem;
+}
+.but1 {
+  width: 13.6875rem;
+  height: 3.25rem;
+  border-radius: 16px;
+  border: 0;
+  color: black;
+  background-color: #f4ce14;
+  font-family: "Markazi Text", serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 1.5rem;
+}
+.but1:disabled {
+  background-color: rgb(219, 105, 105);
+}
+.but1:active {
+  opacity: 0.7;
+}
+.bntsectform {
+  display: flex;
+  justify-content: center;
+}
+
+/* Booking Main 1 */
+.boksect {
+  background-color: #495e57;
+  padding: 1.5rem 0 1.5rem 0;
+  margin-top: 1rem;
+}
+.boktext {
+  justify-content: center;
+  font-family: "Markazi Text", serif;
+  font-size: 20px;
+}
+.boksect1 {
+  font-family: "karla", sans-serif;
+}
+.boktext1 {
+  padding: 0 1rem 1rem 1rem;
+  margin: 0;
+  width: 23vw;
+}
+.bokimg {
+  position: relative;
+  width: 100%;
+}
+/* Booking main 1 Mobile Style*/
+@media (max-width: 768px) {
+  .boktext1 {
+    width: 90%;
+    font-size: 10px;
+    margin-top: 1rem;
+    padding: 0 0.5rem 0 0.5rem;
+  }
+  .lab1 {
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .container {
+    align-content: center;
+    padding: 2rem 0 2rem 0;
+    height: auto;
+  }
+  .wrapper {
+    width: 100%;
+  }
+}

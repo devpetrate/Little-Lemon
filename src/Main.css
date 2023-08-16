@@ -40,6 +40,9 @@
   font-weight: bold;
   margin-top: 1.5rem;
 }
+.text13:hover {
+  opacity: 0.5;
+}
 .img1 {
   width: 20.625rem;
   height: 23.125rem;

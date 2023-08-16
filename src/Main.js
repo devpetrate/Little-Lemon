@@ -8,6 +8,7 @@ import man2 from './icons/man2.png'
 import man11 from './/icons/man111.jpg'
 import man22 from './/icons/man222.jpg'
 import './Main.css'
+import { Link } from 'react-router-dom'
 
 function Main() {
     return (
@@ -19,7 +20,7 @@ function Main() {
                     <h2 className='text11'>Chicago</h2>
                     <p className='text12'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus,
                         unde autem commodi assumenda sint temporibus necessitatibus place</p>
-                    <button className='text13'>Reserve A Table</button>
+                    <Link to="bookingpage"><button className='text13'> Reserve A Table </button></Link>
                 </section>
                 <aside>
                     <img className='img1' src={mainimg1} alt="Food made in Little Lemon" />

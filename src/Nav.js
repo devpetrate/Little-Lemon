@@ -1,15 +1,16 @@
 import './Nav.css'
+import { Link } from 'react-router-dom';
 
 function Nav() {
     return (
         <>
             <ul>
-                <li><a href="github.com">Home</a></li>
-                <li><a href="github.com">About</a></li>
-                <li><a href="github.com">Menu</a></li>
-                <li><a href="github.com">Reservations</a></li>
-                <li><a href="github.com">Order Online</a></li>
-                <li><a href="github.com">Login</a></li>
+                <li><Link to="/" className='navanchor'>Home</Link></li>
+                <li><Link to="/main" className='navanchor'>About</Link></li>
+                <li><a href="github.com" className='navanchor'>Menu</a></li>
+                <li><a href="github.com" className='navanchor'>Reservations</a></li>
+                <li><a href="github.com" className='navanchor'>Order Online</a></li>
+                <li><a href="github.com" className='navanchor'>Login</a></li>
             </ul>
         </>
     )
