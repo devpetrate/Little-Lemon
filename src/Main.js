@@ -20,7 +20,7 @@ function Main() {
                     <h2 className='text11'>Chicago</h2>
                     <p className='text12'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus,
                         unde autem commodi assumenda sint temporibus necessitatibus place</p>
-                    <Link to="bookingpage" ><button className='text13'> Reserve A Table </button></Link>
+                    <Link to="bookingpage" ><button aria-label="On Click" className='text13'> Reserve A Table </button></Link>
                 </section>
                 <aside>
                     <img className='img1' src={mainimg1} alt="Food made in Little Lemon" />
@@ -31,7 +31,7 @@ function Main() {
             <section className='sect2'>
                 <section className='sect21'>
                     <h1 className='text2'>This Weeks Specials!</h1>
-                    <button className='text21'>Online Menu</button>
+                    <Link to="bookingpage" ><button className='text21'>Online Menu</button></Link>
                 </section>
                 <section className='sect22'>
                     <section className='sect23'>

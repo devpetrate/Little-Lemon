@@ -41,8 +41,13 @@
   margin-top: 1.5rem;
 }
 .text13:hover {
-  opacity: 0.5;
+  opacity: 0.7;
 }
+
+.text13:active {
+  background-color: rgb(245, 86, 86);
+}
+
 .img1 {
   width: 20.625rem;
   height: 23.125rem;
@@ -78,6 +83,12 @@
   font-size: 24px;
   font-weight: bold;
   margin-top: 1.5rem;
+}
+.text21:hover {
+  opacity: 0.7;
+}
+.text21:active {
+  background-color: rgb(245, 86, 86);
 }
 
 .sect22 {
