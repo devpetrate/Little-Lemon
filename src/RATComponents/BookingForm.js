@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import './/BookingForm.css'
+import { useNavigate } from 'react-router-dom';
 
 
 export function BookingForm() {
@@ -10,16 +11,17 @@ export function BookingForm() {
     const [availableTimes, setAvailableTimes] = useState(['17:00']);
     const [occasion, setOccasion] = useState('Birthday');
 
+    const navigate = useNavigate();
+
     const handleSubmit = (e) => {
         e.preventDefault();
-        console.log(name, email, date, availableTimes, guests, occasion);
+        navigate('/confirmed-booking')
         setName("");
         setEmail("");
         setDate("");
         setAvailableTimes('17:00');
         setGuests("");
         setOccasion('Birthday');
-        alert("Your Table Has Been Reserved");
     }
 
     return (

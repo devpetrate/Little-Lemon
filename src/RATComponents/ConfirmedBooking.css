@@ -1,0 +1,46 @@
+.cbsect {
+  width: 100vw;
+  height: 17.5rem;
+  display: grid;
+  justify-items: center;
+}
+.logoo1 {
+  width: 192px;
+  height: 57px;
+}
+.cbbtn1 {
+  text-align: center;
+  color: #fff;
+  font-size: 36px;
+  padding: 1rem;
+  background-color: #495e57;
+  margin: 0 2rem 0 2rem;
+  font-weight: bold;
+  font-family: "Markazi Text", serif;
+  border: none;
+}
+.cbbtn2 {
+  width: 13.6875rem;
+  height: 3.25rem;
+  border-radius: 16px;
+  border: 0;
+  color: black;
+  background-color: #f4ce14;
+  font-family: "Karla", serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 1.5rem;
+  text-align: center;
+}
+.cbbtn2:hover {
+  opacity: 0.7;
+}
+.cbbtn2:active {
+  background-color: rgb(245, 86, 86);
+}
+.logoo1,
+.cbbtn1,
+.cbbtn2 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}

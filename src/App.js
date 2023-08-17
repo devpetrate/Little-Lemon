@@ -5,6 +5,7 @@ import Nav from './Nav';
 import Footer from './Footer';
 import { Routes, Route } from 'react-router-dom';
 import BookingPage from './RATComponents/BookingPage';
+import ConfirmedBooking from './RATComponents/ConfirmedBooking';
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
 
       <Routes>
         <Route path="/bookingpage" element={<BookingPage />}></Route>
+        <Route path="/confirmed-booking" element={<ConfirmedBooking />} />
       </Routes>
     </>
   );
